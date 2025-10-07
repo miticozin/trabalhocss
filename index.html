@@ -1,0 +1,134 @@
+git remote add origin https://github.com/miticozin/trabalhocss.git<!DOCTYPE html>
+
+<html lang="pt-BR" style="scroll-behavior:smooth;">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Loja Bob — Trabalho CSS Flexbox</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"/>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=Roboto+Slab:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/estilo.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="top"></div>
+<header class="site-header">
+<div class="header-inner container">
+<h1 class="brand">Loja Bob</h1>
+<nav aria-label="Menu principal" class="main-nav">
+<ul>
+<li><a href="#home">Início</a></li>
+<li><a href="#galeria">Galeria</a></li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main>
+<section class="section hero" id="home">
+<div class="section-inner container">
+<h2 class="section-title">Bem-vindo à Loja Bob!</h2>
+<div class="hero-media">
+<div class="hero-img-wrapper"><img alt="Imagem principal da loja" class="hero-img" src="img/carabob.jpg"/></div>
+</div>
+<div class="hero-extras">
+<figure class="thumb">
+<img alt="Destaque 1" src="img/bobruto.png"/>
+<figcaption>Destaque 1</figcaption>
+</figure>
+<figure class="thumb">
+<img alt="Destaque 2" src="img/bobdedo.png"/>
+<figcaption>Destaque 2</figcaption>
+</figure>
+</div>
+<div class="hero-texts">
+<p>Conheça nossa seleção de produtos pensados para o dia a dia: design simples, qualidade e ótimo custo-benefício.</p>
+<p>Entrega rápida e suporte dedicado. Navegue pela galeria abaixo para ver alguns itens em destaque.</p>
+</div>
+<p class="to-top"><a href="#top">Voltar para o topo ↑</a></p>
+</div>
+</section>
+<section class="section gallery" id="galeria">
+<div class="section-inner container">
+<h2 class="section-title">Galeria de Produtos</h2>
+<div class="gallery-grid">
+<article class="card">
+<img alt="Produto 1" src="img/patrickrenegado.png"/>
+<div class="card-content">
+<h3>Patrick</h3>
+<p>Patrick akatsuki</p>
+</div>
+</article>
+<article class="card">
+<img alt="Produto 2" src="img/lulamoluscada.png"/>
+<div class="card-content">
+<h3>Lula Moluscada</h3>
+<p>Lula Moluscada insano.</p>
+</div>
+</article>
+<article class="card">
+<img alt="Produto 3" src="img/bobakatsuki.png"/>
+<div class="card-content">
+<h3>Bob akatsuki</h3>
+<p>Bob renegado.</p>
+</div>
+</article>
+<article class="card">
+<img alt="Produto 4" src="img/bobmago.png"/>
+<div class="card-content">
+<h3>Bob Mago</h3>
+<p>Bob Esponja explora a escola de Hogwarts.</p>
+</div>
+</article>
+<article class="card">
+<img alt="Produto 5" src="img/patrickretorna.png"/>
+<div class="card-content">
+<h3>Patrick Retorna</h3>
+<p>Após muitos anos, o retorno de Patrick, o Renegado.</p>
+</div>
+</article>
+<article class="card">
+<img alt="Produto 6" src="img/plankton.png"/>
+<div class="card-content">
+<h3>Plankton WINS!</h3>
+<p>Finalmente, ele conseguiu roubar a fórmula do hambúrguer de siri!</p>
+</div>
+</article>
+<article class="card">
+<img alt="Produto 7" src="img/bobnerd.jpg"/>
+<div class="card-content">
+<h3>Bob Nerd</h3>
+<p>Versão nerd do nosso herói marinho favorito!</p>
+</div>
+</article>
+</div>
+<p class="to-top"><a href="#top">Voltar para o topo ↑</a></p>
+</div>
+</section>
+<section class="section about" id="sobre">
+<div class="section-inner container">
+<h2 class="section-title">Sobre</h2>
+<p>Loja Bob é um projeto de demonstração para o trabalho de CSS Flexbox. O foco é mostrar um layout responsivo usando apenas CSS (Flexbox) e HTML.</p>
+<p class="to-top"><a href="#top">Voltar para o topo ↑</a></p>
+</div>
+</section>
+<section class="section contact" id="contato">
+<div class="section-inner container">
+<h2 class="section-title">Contato</h2>
+<p>Tem alguma dúvida? Envie um e-mail para <strong>contato@lojabob.gmail.com</strong></p>
+<p class="to-top"><a href="#top">Voltar para o topo ↑</a></p>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-inner container">
+<p>© <span id="year"></span> Loja Bob — Trabalho: CSS Flexbox</p>
+<p><a href="#top">Voltar para o topo</a></p>
+</div>
+</footer>
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
